@@ -1,0 +1,63 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/specs-detail/specs-detail",
+        "pages/search/search",
+        "pages/camera/camera",
+        "pages/select_bg/select_bg",
+        "pages/mine-detail/mine-detail",
+        "pages/more/more",
+        "pages/customSpecs/customSpecs",
+        "pages/changeBc/changeBc",
+        "pages/web-view/web-view",
+        "pages/orders/orders",
+        "pages/member/member",
+        "pages/zy-service/zy-service",
+        "pages/member/about-us",
+        "pages/diy-page/diy-page",
+        "pages/select_bg/receipt-info",
+        "pages/share/share",
+        "pages/share/share-ad",
+        "pages/share/apply-share",
+        "pages/share/share-orders",
+        "pages/share/apply-cash",
+        "pages/share/share-cash",
+        "pages/share/cash-detail",
+        "pages/share/share-team",
+        "pages/print-order/print-order",
+        "pages/address/address",
+        "pages/edit-address/edit-address",
+        "pages/logistics/logistics",
+        "pages/collect-page/collect-page",
+        "pages/collect-page/collect-list",
+        "pages/collect-page/collect-details",
+        "pages/collect-page/collect-creat",
+        "pages/collect-page/collect-search",
+        "pages/collect-page/collect-take",
+        "pages/collect-page/collect-make",
+        "pages/pt-page/pt-page",
+        "pages/pt-page/pt-detai",
+        "pages/pt-page/pt-list",
+        "pages/c-print-index/c-print-index",
+        "pages/c-print-index/c-print-submit",
+        "pages/c-print-index/c-print-orders"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#f3f4f6"
+    },
+    "networkTimeout": {
+        "request": 60000,
+        "uploadFile": 60000
+    },
+
+"permission": {
+    "scope.userLocation": {
+        "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+},
+  
+    "sitemapLocation": "sitemap.json",
+    "navigateToMiniProgramAppIdList": []
+}
